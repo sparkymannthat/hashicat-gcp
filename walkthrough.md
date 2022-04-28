@@ -1,6 +1,7 @@
 # Introduction to Terraform on GCP
 
 ## Getting Started
+
 This guide will show you how to install a simple web application on a Google Compute instance using Terraform, a popular open source provisioning tool. The web app is called HashiCat, also known as the Meow World application. It's a simple web application that shows pictures of cats. 😻
 
 **Time to complete**: About 10 minutes
