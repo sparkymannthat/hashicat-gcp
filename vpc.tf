@@ -52,10 +52,10 @@ module "vpc" {
         {
             name                   = "app-proxy"
             description            = "route through proxy to reach app"
-            destination_range      = "10.50.10.0/24"
+            destination_range      = "10.100.10.0/24"
             tags                   = "app-proxy"
             next_hop_instance      = "app-proxy-instance"
-            next_hop_instance_zone = "us-west1-a"
+            next_hop_instance_zone = "us-east1-b"
         }
 
     ]
